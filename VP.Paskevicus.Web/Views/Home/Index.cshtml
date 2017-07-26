@@ -1,108 +1,232 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+<section class="container-fluid" data-section="home">
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+    <!-- Personal Flexy Section -->
+    <div class="row flex-row">
+        <!-- Personal Details 01 -->
+        <div id="details" class="col-md-8 flex-column bg-color01 light nopadding"
+             data-animation-origin="left"
+             data-animation-duration="300"
+             data-animation-delay="400"
+             data-animation-distance="200px">
+            <div class="padding-50 flex-panel">
+                <div class="row row-no-padding">
+                    <div class="col-md-12 nopadding">
+                        <h3 class="font-accident-two-normal uppercase title">Amet, consectetur adipiscing elit.</h3>
+                        <div class="quote">
+                            <h4 class="font-accident-two-normal uppercase subtitle">Elit fusce vel sapien elit in malesuada.</h4>
+                            <div class="dividewhite3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-dynamic"></div>
+                <div class="row nopadding">
+                    <div class="col-md-4 infoblock nopadding">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-1 col-md-3"><i class="flaticon-clocks18 color-blue"></i><div class="dividewhite1"></div></div>
+                            <div class="col-xs-12 col-sm-11 col-md-9">
+                                <h4 class="font-accident-two-medium uppercase">Ipsum.</h4>
+                                <p class="">
+                                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                    Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="divider-dynamic"></div>
+                    </div>
+                    <div class="col-md-4 infoblock nopadding">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-1 col-md-3"><i class="flaticon-pie-graph color-blue"></i><div class="dividewhite1"></div></div>
+                            <div class="col-xs-12 col-sm-11 col-md-9">
+                                <h4 class="font-accident-two-medium uppercase">Dolor sit.</h4>
+                                <p class="">
+                                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="divider-dynamic"></div>
+                    </div>
+                    <div class="col-md-4 infoblock nopadding">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-1 col-md-3"><i class="flaticon-tool-1 color-blue"></i><div class="dividewhite1"></div></div>
+                            <div class="col-xs-12 col-sm-11 col-md-9">
+                                <h4 class="font-accident-two-medium uppercase">Ipsum.</h4>
+                                <p class="">
+                                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                    Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                                    Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="divider-dynamic"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /Personal Details 01 -->
+        <!-- Personal Details 02 -->
+        <div id="personal" class="col-md-4 flex-column light ui-block-color01 personal"
+             data-animation-origin="right"
+             data-animation-duration="500"
+             data-animation-delay="600"
+             data-animation-distance="100px">
+            <div class="padding-50 flex-panel">
+                <h3 class="font-accident-two-normal uppercase title">Personal Info</h3>
+                <div class="dividewhite4"></div>
+                <div>
+                    <div class="fullwidth box">
+                        <div class="one"><p class="uppercase">Name:</p></div>
+                        <div class="two"><p class="">Vladimirs Paskevicus</p></div>
+                    </div>
+                    <div class="fullwidth box">
+                        <div class="one"><p class="uppercase text-nowrap">Birth Date:</p></div>
+                        <div class="two"><p class="">04/09/1989</p></div>
+                    </div>
+                    <div class="fullwidth box">
+                        <div class="one"><p class="uppercase">Address:</p></div>
+                        <div class="two"><p class=""></p>Consectetur adipiscing elit fusce vel.</div>
+                    </div>
+                    <div class="fullwidth box">
+                        <div class="one"><p class="uppercase">Phone:</p></div>
+                        <div class="two"><p class="">1 234 567 89 10</p></div>
+                    </div>
+                    <div class="fullwidth box">
+                        <div class="one"><p class="uppercase">Email:</p></div>
+                        <div class="two"><p class="">v.paskevicus@outlook.com</p></div>
+                    </div>
+                </div>
+                <div class="dividewhite1"></div>
+            </div>
+        </div>
+        <!-- /Personal Details 02 -->
     </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
+    <!-- /Personal Flexy Section -->
+
+</section>
+
+<section id="professional" class="container-fluid" data-section="home">
+
+    <div class="row flex-row">
+
+        <div id="pro-experience" class="col-md-4 flex-column dark nopadding ui-block-color02 flex-col"
+             data-animation-origin="bottom"
+             data-animation-duration="300"
+             data-animation-delay="800"
+             data-animation-distance="200px">
+            <div class="padding-50 flex-panel">
+                <h3 class="font-accident-two-normal uppercase title">Employment</h3>
+                <div class="dividewhite4"></div>
+                <div class="experience">
+                    <ul class="">
+                        <li class="date">02/2008 - 04/2010</li>
+                        <li class="company uppercase">
+                            <a>
+                                Consectetur adipiscing elit fusce vel.
+                            </a>
+                        </li>
+                        <li class="position">Software Developer</li>
+                    </ul>
+                    <ul class="">
+                        <li class="date">04/2010 - 06/2012</li>
+                        <li class="company uppercase">
+                            <a>
+                                Sit amet, consectetur.
+                            </a>
+                        </li>
+                        <li class="position">Software Engineer</li>
+                    </ul>
+                    <ul class="">
+                        <li class="date">06/2012 - present</li>
+                        <li class="company uppercase">
+                            <a>
+                                Fusce vel sapien elit in malesuada semper mi.
+                            </a>
+                        </li>
+                        <li class="position">Web Developer</li>
+                    </ul>
+                </div>
+                <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
+                <div class="dividewhite1"></div>
+            </div>
+        </div>
+        <div id="circle-skills" class="col-md-8 flex-column dark nopadding ui-block-color03 flex-col" data-section="progress"
+             data-animation-origin="right"
+             data-animation-duration="400"
+             data-animation-delay="1100"
+             data-animation-distance="200px">
+            <div class="padding-50 flex-panel">
+                <h3 class="font-accident-two-normal uppercase title">Professional skills</h3>
+                <div class="dividewhite1"></div>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
+                        <div class="progressbar text-center">
+                            <div id="circle1"
+                                 data-progressbar="circle"
+                                 data-progressbar-color="#fff"
+                                 data-progressbar-trailcolor="#fff"
+                                 data-progressbar-to='{"color": "#51f2ec", "width": 4}'
+                                 data-progressbar-from='{"color": "#3498db", "width": 4}'
+                                 data-progressbar-value="0.6">
+                            </div>
+                            <h4 class="font-accident-two-bold uppercase">Install</h4>
+                            <p class="font-regular-normal">
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                            </p>
+                            <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
+                        </div>
+                        <div class="dividewhite1"></div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
+                        <div class="progressbar text-center">
+                            <div id="circle2"
+                                 data-progressbar="circle"
+                                 data-progressbar-color="#fff"
+                                 data-progressbar-trailcolor="#fff"
+                                 data-progressbar-to='{"color": "#ffd200", "width": 4}'
+                                 data-progressbar-from='{"color": "#3498db", "width": 4}'
+                                 data-progressbar-value="0.85">
+                            </div>
+                            <h4 class="font-accident-two-bold uppercase">Customize</h4>
+                            <p class="font-regular-normal">
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                                Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.
+                            </p>
+                            <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
+                        </div>
+                        <div class="dividewhite1"></div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
+                        <div class="progressbar text-center">
+                            <div id="circle3"
+                                 data-progressbar="circle"
+                                 data-progressbar-color="#fff"
+                                 data-progressbar-trailcolor="#fff"
+                                 data-progressbar-to='{"color": "#F09C88", "width": 4}'
+                                 data-progressbar-from='{"color": "#3498db", "width": 4}'
+                                 data-progressbar-value="0.93">
+                            </div>
+                            <h4 class="font-accident-two-bold uppercase">Support</h4>
+                            <p class="font-regular-normal">
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                            </p>
+                            <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
+                        </div>
+                        <div class="dividewhite1"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run & Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
-</div>
+</section>
