@@ -1,16 +1,12 @@
-﻿// Configure bundling and minification for the project.
-// More info at https://go.microsoft.com/fwlink/?LinkId=808241
 [
   {
     "outputFileName": "wwwroot/css/style.min.css",
-    // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
       "wwwroot/css/style.css"
     ]
   },
   {
     "outputFileName": "wwwroot/css/colors.min.css",
-    // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
       "wwwroot/css/colors.css"
     ]
@@ -20,12 +16,21 @@
     "inputFiles": [
       "wwwroot/js/custom.js"
     ],
-    // Optionally specify minification options
     "minify": {
       "enabled": true,
       "renameLocals": true
-    },
-    // Optionally generate .map file
-    "sourceMap": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/lib/progressbar/progressbar.min.js",
+    "inputFiles": [
+      "wwwroot/lib/progressbar/progressbar.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery-pjax/jquery.pjax.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery-pjax/jquery.pjax.js"
+    ]
   }
 ]

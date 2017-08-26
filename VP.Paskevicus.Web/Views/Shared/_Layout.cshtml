@@ -188,12 +188,12 @@
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 
         <!-- JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.0/isotope.pkgd.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+        <script src="~/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+        <script src="~/lib/isotope/dist/isotope.pkgd.js"></script>
+        <script src="~/lib/scrollreveal/dist/scrollreveal.js"></script>
+        <script src="~/lib/velocity/velocity.js"></script>
+        <script src="~/lib/progressbar/progressbar.js"></script>
+        <script src="~/lib/jquery-pjax/jquery.pjax.js"></script>
 
 
         <!-- Custom scripts -->
@@ -201,6 +201,8 @@
         <script src="~/js/animation.js"></script>
         <script src="~/js/custom.js"></script>
     </environment>
+
+
     <environment names="Staging,Production">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
                 asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
@@ -216,12 +218,26 @@
         </script>
 
         <!-- JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.0/isotope.pkgd.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js"
+                asp-fallback-src="~/lib/imagesloaded/imagesloaded.pkgd.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.0/isotope.pkgd.min.js"
+                asp-fallback-src="~/lib/isotope/dist/isotope.pkgd.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.6/scrollreveal.min.js"
+                asp-fallback-src="~/lib/scrollreveal/dist/scrollreveal.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"
+                asp-fallback-src="~/lib/velocity/velocity.min.js">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"
+                asp-fallback-src="~/lib/progressbar/progressbar.min.js">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"
+                asp-fallback-src="~/lib/jquery-pjax/jquery.pjax.min.js">
+        </script>
 
         <!-- Custom scripts -->
         <script src="~/js/animated-headline.js"></script>
