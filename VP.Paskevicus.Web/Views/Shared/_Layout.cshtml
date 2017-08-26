@@ -21,9 +21,9 @@
 
     <environment names="Development">
         <!-- CSS -->
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" property="stylesheet" type="text/css" media="screen" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" property="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" property="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" property="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="~/lib/hover/css/hover.css" property="stylesheet" type="text/css" media="screen" />
 
         <!-- Custom styles -->
         <link rel="stylesheet" href="~/css/style.css" property="stylesheet" type="text/css" media="screen" />
@@ -32,15 +32,19 @@
 
     <environment names="Staging,Production">
         <!-- CSS -->
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" property="stylesheet" type="text/css" media="screen" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" property="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              asp-fallback-href="~/lib/font-awesome/css/font-awesome.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+              asp-fallback-href="~/lib/hover/css/hover-min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
 
         <!-- Custom styles -->
-        <link rel="stylesheet" href="~/css/style.css" property="stylesheet" type="text/css" media="screen" asp-append-version="true" />
-        <link rel="stylesheet" href="~/css/colors.css" property="stylesheet" type="text/css" media="screen" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/style.min.css" property="stylesheet" type="text/css" media="screen" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/colors.min.css" property="stylesheet" type="text/css" media="screen" asp-append-version="true" />
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
